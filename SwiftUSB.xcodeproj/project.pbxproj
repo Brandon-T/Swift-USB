@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E2024E922EBFB5B0080191C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2024E822EBFB5B0080191C /* main.swift */; };
+		5E2024F122EBFB6A0080191C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2024F022EBFB6A0080191C /* IOKit.framework */; };
+		5E2024F322EBFB7C0080191C /* USB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2024F222EBFB7C0080191C /* USB.swift */; };
+		5E2024F522EBFDD40080191C /* IOError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2024F422EBFDD40080191C /* IOError.swift */; };
+		5E2024F722EC221A0080191C /* IOKitConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2024F622EC221A0080191C /* IOKitConstants.swift */; };
+		5E2024FB22EC9FDE0080191C /* NXPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2024FA22EC9FDE0080191C /* NXPayload.swift */; };
+		5E2024FD22ECA68A0080191C /* Fusee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2024FC22ECA68A0080191C /* Fusee.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E2024E322EBFB5B0080191C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5E2024E522EBFB5B0080191C /* SwiftUSB */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftUSB; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2024E822EBFB5B0080191C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5E2024F022EBFB6A0080191C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		5E2024F222EBFB7C0080191C /* USB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USB.swift; sourceTree = "<group>"; };
+		5E2024F422EBFDD40080191C /* IOError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOError.swift; sourceTree = "<group>"; };
+		5E2024F622EC221A0080191C /* IOKitConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOKitConstants.swift; sourceTree = "<group>"; };
+		5E2024FA22EC9FDE0080191C /* NXPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NXPayload.swift; sourceTree = "<group>"; };
+		5E2024FC22ECA68A0080191C /* Fusee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fusee.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E2024E222EBFB5B0080191C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2024F122EBFB6A0080191C /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E2024DC22EBFB5B0080191C = {
+			isa = PBXGroup;
+			children = (
+				5E2024E722EBFB5B0080191C /* SwiftUSB */,
+				5E2024E622EBFB5B0080191C /* Products */,
+				5E2024EF22EBFB690080191C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E2024E622EBFB5B0080191C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E2024E522EBFB5B0080191C /* SwiftUSB */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E2024E722EBFB5B0080191C /* SwiftUSB */ = {
+			isa = PBXGroup;
+			children = (
+				5E2024FC22ECA68A0080191C /* Fusee.swift */,
+				5E2024E822EBFB5B0080191C /* main.swift */,
+				5E2024F222EBFB7C0080191C /* USB.swift */,
+				5E2024F422EBFDD40080191C /* IOError.swift */,
+				5E2024F622EC221A0080191C /* IOKitConstants.swift */,
+				5E2024FA22EC9FDE0080191C /* NXPayload.swift */,
+			);
+			path = SwiftUSB;
+			sourceTree = "<group>";
+		};
+		5E2024EF22EBFB690080191C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E2024F022EBFB6A0080191C /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E2024E422EBFB5B0080191C /* SwiftUSB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E2024EC22EBFB5B0080191C /* Build configuration list for PBXNativeTarget "SwiftUSB" */;
+			buildPhases = (
+				5E2024E122EBFB5B0080191C /* Sources */,
+				5E2024E222EBFB5B0080191C /* Frameworks */,
+				5E2024E322EBFB5B0080191C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUSB;
+			productName = SwiftUSB;
+			productReference = 5E2024E522EBFB5B0080191C /* SwiftUSB */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E2024DD22EBFB5B0080191C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = XIO;
+				TargetAttributes = {
+					5E2024E422EBFB5B0080191C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 5E2024E022EBFB5B0080191C /* Build configuration list for PBXProject "SwiftUSB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E2024DC22EBFB5B0080191C;
+			productRefGroup = 5E2024E622EBFB5B0080191C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E2024E422EBFB5B0080191C /* SwiftUSB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E2024E122EBFB5B0080191C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2024FB22EC9FDE0080191C /* NXPayload.swift in Sources */,
+				5E2024F722EC221A0080191C /* IOKitConstants.swift in Sources */,
+				5E2024FD22ECA68A0080191C /* Fusee.swift in Sources */,
+				5E2024F322EBFB7C0080191C /* USB.swift in Sources */,
+				5E2024F522EBFDD40080191C /* IOError.swift in Sources */,
+				5E2024E922EBFB5B0080191C /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E2024EA22EBFB5B0080191C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E2024EB22EBFB5B0080191C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5E2024ED22EBFB5B0080191C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5E2024EE22EBFB5B0080191C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E2024E022EBFB5B0080191C /* Build configuration list for PBXProject "SwiftUSB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2024EA22EBFB5B0080191C /* Debug */,
+				5E2024EB22EBFB5B0080191C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E2024EC22EBFB5B0080191C /* Build configuration list for PBXNativeTarget "SwiftUSB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2024ED22EBFB5B0080191C /* Debug */,
+				5E2024EE22EBFB5B0080191C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E2024DD22EBFB5B0080191C /* Project object */;
+}
